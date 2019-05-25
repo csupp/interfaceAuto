@@ -9,12 +9,14 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import com.alibaba.fastjson.JSONObject;
 
 public class RestfulClient {
-  CloseableHttpClient httpClient;
-  HttpGet httpGet;
-  CloseableHttpResponse httpResponse;
-  int responseCode;
-  JSONObject responseBody;
-  HashMap<String, String> responseHeads;
-  
-  
+	CloseableHttpClient httpClient;
+	HttpGet httpGet;
+	CloseableHttpResponse httpResponse;
+	int responseCode;
+	JSONObject responseBody;
+	HashMap<String, String> responseHeads;
+
+	public void getResponse(String url) {
+
+	}
 }
