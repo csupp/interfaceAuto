@@ -18,7 +18,7 @@ public class testGet {
 	JSONObject responseBody;
 	int responseCode;
 	String city;
-	String url = "https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=15001958582";
+	String url = "https://api.apishop.net/communication/phone/getLocationByPhoneNum?apiKey=WXrtXXf365febcef24d04246ec02cf504eb8782bc51d694&phoneNum=15001958582";
 
 	@Test
 	public void testGetRequest() throws ClientProtocolException, IOException {

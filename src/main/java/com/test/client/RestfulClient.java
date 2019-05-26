@@ -53,10 +53,12 @@ public class RestfulClient {
 		return responseBody;
 
 	}
-   /**
-    * Get response heads by hashmap
-    * @return
-    */
+
+	/**
+	 * Get response heads by hashmap
+	 * 
+	 * @return
+	 */
 	public HashMap<String, String> getHeaderInHash() {
 		Header[] headers = (Header[]) httpResponse.getAllHeaders();
 		responseHeads = new HashMap<String, String>();
@@ -67,10 +69,10 @@ public class RestfulClient {
 		return responseHeads;
 
 	}
-	
+
 	public int getResponseCode() {
 		responseCode = httpResponse.getStatusLine().getStatusCode();
 		return responseCode;
 	}
-	
+
 }
